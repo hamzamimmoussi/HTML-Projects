@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cmd de livre en ligne</title>
+</head>
+
+<body>
+
+<h1>Commande de livre</h1>
+
+<p>
+    Livre : Introduction au Web<br>
+    Auteur : A. Dupont<br>
+    Résumé : Un guide simple pour apprendre les bases du développement web.
+</p>
+
+<form method="post" action="">
+
+    <fieldset>
+        <legend>Informations sur le livre</legend>
+
+        <label>Titre du livre :</label>
+        <input type="text" value="Introduction au Web" readonly>
+
+        <br><br>
+
+        <label for="quantite">Quantité :</label>
+        <input type="number" id="quantite" name="quantite" min="1" value="1">
+
+        <input type="hidden" name="id_livre" value="FST123">
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Coordonnées de l’acheteur</legend>
+
+        <label for="nom">Nom complet :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <br><br>
+
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+
+        <label for="tel">Téléphone :</label>
+        <input type="tel" id="tel" name="tel">
+
+        <br><br>
+
+        <label for="adresse">Adresse de livraison :</label><br>
+        <textarea id="adresse" name="adresse" rows="4" cols="40"></textarea>
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Options de livraison et de paiement</legend>
+
+        <label for="livraison">Mode de livraison :</label>
+        <select id="livraison" name="livraison">
+            <option>Sur place</option>
+            <option>Livraison locale</option>
+            <option>Livraison nationale</option>
+        </select>
+
+        <br><br>
+
+        Mode de paiement :
+
+        <input type="radio" name="paiement" value="sur_place"> Paiement sur place
+        <input type="radio" name="paiement" value="en_ligne"> Paiement en ligne
+
+        <br><br>
+
+        <input type="checkbox" name="conditions" required>
+        J'accepte les conditions générales de vente
+
+        <input type="hidden" name="source" value="formulaire_site">
+
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Valider la commande">
+    <input type="reset" value="Annuler">
+
+</form>
+
+</body>
+</html>
