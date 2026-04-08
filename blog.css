@@ -1,0 +1,24 @@
+/* Sélecteur universel */
+* {
+    font-family: Arial;
+}
+
+/* Sélecteur descendant */
+article p {
+    color: #5a5a87;
+}
+
+/* Sélecteur enfant */
+article > p {
+    color: #3e0404;
+}
+
+/* Frère adjacent */
+h2 + p {
+    font-weight: bold;
+}
+
+/* Groupement */
+h1, h2 {
+    text-decoration: underline;
+}

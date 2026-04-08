@@ -1,0 +1,28 @@
+/* Liens avec attribut title */
+a[title] {
+    color: red;
+}
+
+/* Lien spécifique */
+a[title="Site de la FST"] {
+    font-weight: bold;
+}
+
+/* Liens PDF */
+a[href$=".pdf"] {
+    font-style: italic;
+}
+
+/* Pseudo-classes */
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    font-size: 18px;
+}
+
+a:active {
+    color: orange;
+    font-weight: bold;
+}

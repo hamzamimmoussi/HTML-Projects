@@ -1,0 +1,26 @@
+/* Sélecteurs de type */
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Sélecteurs de classe */
+.important {
+    font-weight: bold;
+}
+
+.web {
+    text-decoration: underline;
+}
+
+/* Sélecteur ID */
+#contact {
+    font-style: italic;
+}
