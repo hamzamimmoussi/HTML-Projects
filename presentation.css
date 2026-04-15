@@ -1,0 +1,50 @@
+/* style général */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fond page */
+body {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* titre */
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* paragraphes */
+p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* intro */
+#intro {
+    background-color: #dbeafe;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* objectifs */
+.objectif {
+    font-weight: bold;
+    text-indent: 30px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+/* contact */
+#contact {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+}

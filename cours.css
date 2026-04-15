@@ -1,0 +1,7 @@
+/*p { color: red; }
+p.important { color: brown; }
+#special { color: pink; }
+*/
+p.important { color: darkgreen; font-weight: bold; }
+#special { font-style: italic; text-shadow: 2px 2px 4px gray; }
+p { color: red; }
